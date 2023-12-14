@@ -56,7 +56,6 @@ import BaseButton from './BaseButton.vue';
 
                     <span class="text-xl">Double dislike</span>
                 </BaseButton>
-                <BaseButton>No rating (skip)</BaseButton>
                 <BaseButton type="review">
                     <Icon
                         icon="heroicons:chat-bubble-bottom-center-text"
@@ -64,6 +63,7 @@ import BaseButton from './BaseButton.vue';
                     />
                     <span class="text-xl">Write a review</span>
                 </BaseButton>
+                <BaseButton>No rating (skip)</BaseButton>
             </div>
         </div>
         <Icon

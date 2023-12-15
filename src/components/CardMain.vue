@@ -11,7 +11,7 @@
             <h3 class="font-semibold text-3xl text-slate-700 capitalize">
                 Barack Obama
             </h3>
-            <p class="text-slate-700 leading-8 text-xl max-w-sm text-center">
+            <p class="text-slate-700 leading-8 text-xl max-w-md text-center">
                 American former politician who served as the 44th president of
                 the United States from 2009 to 2017
             </p>

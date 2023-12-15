@@ -35,23 +35,23 @@ const btnStyles = computed(() => {
 
 <style scoped>
 .default {
-    @apply text-slate-600 text-xl text-center justify-center;
+    @apply text-light-gray text-xl text-center justify-center;
 }
 
 .like,
 .double-like {
-    @apply shadow-lg shadow-green-200 border-2 border-green-200;
+    @apply shadow-lg shadow-color-green/30 border-2 border-color-green/30;
 }
 
 .mixed {
-    @apply shadow-lg shadow-green-200 border-2 border-l-green-200 border-b-green-200 border-t-red-200 border-red-200;
+    @apply shadow-lg shadow-color-green/50 border-2 border-l-color-green/50 border-b-color-green/50 border-t-color-red/50 border-color-red/50;
 }
 .dislike,
 .double-dislike {
-    @apply shadow-lg shadow-red-200 border-2 border-red-200;
+    @apply shadow-lg shadow-color-red/30 border-2 border-color-red/30;
 }
 
 .review {
-    @apply text-green-300 text-xl text-center justify-center border border-green-300 h-[3rem];
+    @apply text-color-green text-xl text-center justify-center border border-color-green h-[3rem];
 }
 </style>

@@ -25,7 +25,7 @@ const btnStyles = computed(() => {
 
 <template>
     <button
-        class="outline-none p-3 rounded-full lg:px-6 lg:py-2 flex lg:space-x-4 items-center justify-center lg:justify-start lg:rounded-xl h-[4rem] w-[4rem] lg:h-[4rem] lg:w-[15rem] scale-100 hover:scale-[1.02] transition-all duration-75 group"
+        class="outline-none p-2 rounded-full lg:px-6 lg:py-2 flex lg:space-x-4 items-center justify-center lg:justify-start lg:rounded-xl h-[3.5rem] w-[3.5rem] lg:h-[4rem] lg:w-[15rem] scale-100 hover:scale-[1.02] transition-all duration-75 group"
         :class="btnStyles"
     >
         <slot />
@@ -59,6 +59,6 @@ const btnStyles = computed(() => {
 }
 
 .review {
-    @apply text-color-green text-xl border border-color-green h-[3rem] hover:scale-100 hidden lg:inline-block;
+    @apply text-color-green text-xl border border-color-green h-[3rem] hover:scale-100 hidden lg:flex;
 }
 </style>

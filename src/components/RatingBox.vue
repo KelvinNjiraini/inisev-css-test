@@ -4,22 +4,30 @@ import BaseButton from './BaseButton.vue';
 </script>
 <template>
     <div
-        class="flex flex-row items-center space-x-5 lg:space-x-0 lg:flex-col lg:space-y-5"
+        class="flex flex-row items-center space-x-3 lg:space-x-0 lg:flex-col lg:space-y-5"
     >
         <BaseButton type="double-like">
-            <img src="./../assets/icons/double-like.svg" alt="double-like" />
+            <img
+                src="./../assets/icons/double-like.svg"
+                alt="double-like"
+                class="h-6 w-6 lg:h-8 lg:w-8"
+            />
             <span class="text-xl hidden lg:inline">Double like</span>
         </BaseButton>
 
         <BaseButton type="like">
-            <img src="./../assets/icons/single-like.svg" alt="single-like" />
+            <img
+                src="./../assets/icons/single-like.svg"
+                alt="single-like"
+                class="h-6 w-6 lg:h-8 lg:w-8"
+            />
             <span class="text-xl hidden lg:inline">Single like</span>
         </BaseButton>
         <BaseButton type="mixed">
             <img
                 src="./../assets/icons/mixed-reaction.svg"
                 alt="mixed reaction"
-                class="lg:-ml-3"
+                class="lg:-ml-3 h-7 w-7 lg:h-8 lg:w-8"
             />
             <span class="text-xl hidden lg:inline">Mixed rating</span>
         </BaseButton>
@@ -27,6 +35,7 @@ import BaseButton from './BaseButton.vue';
             <img
                 src="./../assets/icons/single-dislike.svg"
                 alt="single-dislike"
+                class="h-6 w-6 lg:h-8 lg:w-8"
             />
             <span class="text-xl hidden lg:inline">Single dislike</span>
         </BaseButton>
@@ -34,6 +43,7 @@ import BaseButton from './BaseButton.vue';
             <img
                 src="./../assets/icons/double-dislike.svg"
                 alt="double-dislike"
+                class="h-6 w-6 lg:h-8 lg:w-8"
             />
             <span class="text-xl hidden lg:inline">Double dislike</span>
         </BaseButton>

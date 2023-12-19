@@ -1,5 +1,4 @@
 <script setup>
-import { Icon } from '@iconify/vue';
 import { computed } from 'vue';
 
 const props = defineProps({
@@ -26,7 +25,7 @@ const btnStyles = computed(() => {
 
 <template>
     <button
-        class="outline-none px-6 py-2 flex space-x-4 items-center rounded-xl h-[4rem] w-[15rem]"
+        class="outline-none p-3 rounded-full lg:px-6 lg:py-2 flex lg:space-x-4 items-center justify-center lg:justify-start lg:rounded-xl h-[4rem] w-[4rem] lg:h-[4rem] lg:w-[15rem] scale-100 hover:scale-[1.02] transition-all duration-75 group"
         :class="btnStyles"
     >
         <slot />
@@ -35,7 +34,15 @@ const btnStyles = computed(() => {
 
 <style scoped>
 .default {
-    @apply text-light-gray text-xl text-center justify-center;
+    @apply text-light-gray text-xl text-center justify-center hover:scale-100 hidden lg:inline-block;
+}
+
+.like {
+    @apply active:bg-color-green/60;
+}
+
+.double-like {
+    @apply active:bg-color-green;
 }
 
 .like,
@@ -52,6 +59,6 @@ const btnStyles = computed(() => {
 }
 
 .review {
-    @apply text-color-green text-xl text-center justify-center border border-color-green h-[3rem];
+    @apply text-color-green text-xl border border-color-green h-[3rem] hover:scale-100 hidden lg:inline-block;
 }
 </style>

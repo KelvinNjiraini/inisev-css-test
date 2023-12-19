@@ -64,7 +64,9 @@ import RatingBox from './RatingBox.vue';
                 </Button>
             </div>
             <div class="flex items-center justify-between space-x-3">
-                <Button class="outline-none">
+                <Button
+                    class="outline-none scale-100 hover:scale-[1.02] transition-all duration-75"
+                >
                     <svg
                         width="36"
                         height="36"
@@ -92,7 +94,7 @@ import RatingBox from './RatingBox.vue';
                     </svg>
                 </Button>
                 <div
-                    class="flex flex-col md:flex-row items-center justify-center md:space-x-16 w-full p-5"
+                    class="flex flex-col lg:flex-row items-center justify-center space-y-16 lg:space-y-0 lg:space-x-16 w-full p-5"
                 >
                     <!-- <div class="md:w-3/5"> -->
                     <card-main />
@@ -106,7 +108,7 @@ import RatingBox from './RatingBox.vue';
                         viewBox="0 0 36 36"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-12 h-12"
+                        class="w-12 h-12 scale-100 hover:scale-[1.02] transition-all duration-75"
                     >
                         <rect
                             x="0.5"

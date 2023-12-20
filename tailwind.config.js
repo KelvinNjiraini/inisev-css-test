@@ -8,6 +8,9 @@ export default {
                 'light-gray': '#ABBBCE',
                 'color-red': '#E53A4F',
             },
+            screens: {
+                xs: '480px',
+            },
         },
     },
     plugins: [],

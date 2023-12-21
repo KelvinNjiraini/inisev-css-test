@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import CardMain from './CardMain.vue';
 import RatingBox from './RatingBox.vue';
 
-const ratingsComplete = ref(true);
+const ratingsComplete = ref(false);
 </script>
 
 <template>
